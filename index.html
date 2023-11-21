@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STB</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <script src="index.js"></script>
+    <div class="loader-container" id="loader-container">
+        <div class="loader"></div>
+    </div>
+
+    <div id="container">
+        <form action="">
+        <img id="logo" src="STB1.png" alt="Your Logo">
+        <h1><strong>VIDEX</strong> - Video Summarization</h1>
+        
+        
+        <input type="text" id="video-url" placeholder="Enter Video URL" required>
+         <input type="text" id="out"placeholder="Filepath" required>
+        <button id="summarize-button" onclick="move()">
+            <span id="symbol">🎥</span> Summarize Video
+        </button>
+        <!-- <div id="boxes-container">
+            <div id="summary-box">
+                <strong>Summarized Text:</strong>
+                <p id="summarized-text"></p>
+            </div>
+            <div id="timestamp-box">
+                <strong>Timestamp:</strong>
+                <p id="timestamp"></p>
+            </div> -->
+
+            <div id="myProgress">
+                <div id="myBar"></div>
+              </div>
+             
+
+        </form>
+        </div>
+    </div>
+
+    
+ 
+</body>
+</html>
